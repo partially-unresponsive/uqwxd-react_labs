@@ -1,3 +1,5 @@
+// Complete solution for Module 1 Lab
+
 import React, {useState, useEffect} from "react";
 import "./App.css";
 const App = () => {
@@ -85,7 +87,7 @@ return(        <div id="todo-list">
   <div className="todo-text">
     {/* Add checkbox for toggle complete */}
     <input
-      type="checkbox"
+      type="checkbox" 
       id="completed"
       checked={todo.completed}
       onChange={() => toggleComplete(todo.id)}
